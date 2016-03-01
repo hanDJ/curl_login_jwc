@@ -24,4 +24,13 @@
 	curl_setopt($curl,CURLOPT_COOKIEFILE ,$cookie_ir);//发出请求时携带拥有的cookie：
 	curl_exec($curl);//// 抓取URL并把它传递给浏览器
 	curl_close($curl);
+	/*
+		环境要求
+		---------------------------------
+		PHP5.2+
+		支持curl
+		网站：https://sso.ctgu.edu.cn:7002/cas/login?service=http%3A%2F%2Fportal.ctgu.edu.cn%2Fportal%2Findex.jsp
+		测试账号2013422231
+		密码16958888
+	*/
 ?>
